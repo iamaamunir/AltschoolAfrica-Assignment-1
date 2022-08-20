@@ -1,0 +1,309 @@
+/*general sytles  */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@600&family=Pacifico&family=Roboto&family=Roboto+Mono&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: url("../images/joanna-kosinska-9gfGDbxuqrU-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-attachment: fixed;
+}
+
+/* navbar styles */
+
+li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  flex-direction: row;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  padding: 20px 10px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 2px;
+  margin: 0px 5px;
+}
+
+.nav-links li a {
+  background: #1e5128;
+  padding: 10px 25px;
+  border: 1px solid #191a19;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.nav-links li a:hover {
+  background: #d8e9a8;
+  color: #191a19;
+  border: 1px solid #191a19;
+}
+
+.nav-links li a:active {
+  background: #4e9f3d;
+}
+
+.nav-links li a:visited {
+  background: rgba(rgb(94, 255, 0), green, blue, alpha);
+  color: #fff;
+}
+ul li {
+  font-family: "Merriweather", serif;
+}
+
+/* main styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #1e5128;
+  letter-spacing: 0.4rem;
+  font-size: 2.5rem;
+  margin: 1rem 0 1rem 0;
+  font-weight: 800;
+  font-family: "Roboto Mono", monospace;
+}
+
+h2 {
+  color: #191a19;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.5rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+h3 {
+  color: #191a19;
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+p {
+  text-align: center;
+  padding: 0 15rem 0 15rem;
+  color: #191a19;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "Merriweather", serif;
+  line-height: 1.8rem;
+}
+/* section styles */
+section ul li {
+  list-style: none;
+  padding: 0.1rem 0 0.1rem 0;
+}
+
+section {
+  margin-top: 1rem;
+  color: #191a19;
+}
+
+.education {
+  float: left;
+  width: 33.33%;
+}
+
+.job {
+  float: left;
+  width: 33.3334%;
+}
+
+.skills {
+  float: right;
+  width: 33.33%;
+}
+
+/* login styles */
+
+.page-titles {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  width: 22.5%;
+  display: block;
+  margin-left: 38.75%;
+}
+
+.form-sections {
+  padding: 0.5rem;
+}
+
+label {
+  color: #191a19;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto Mono", monospace;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+/* register, button and some login styles */
+
+#username {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#password {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.btn {
+  width: 470px;
+  margin-top: 1rem;
+  height: 30px;
+  border-radius: 5px;
+  border: 0.12rem solid #4e9f3d;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #1e5128;
+  transition: all 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1rem;
+  display: block;
+  width: 25%;
+  margin-left: 3px;
+}
+
+.btn:hover {
+  background: #d8e9a8;
+  color: #191a19;
+  border: 1px solid #191a19;
+}
+
+.btn:active {
+  background: #4e9f3d;
+}
+
+/* contact me styles */
+#name {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#message {
+  margin-bottom: -10px;
+}
+
+#email {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#priority {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+textarea {
+  width: 300px;
+  border: 1px solid #4e9f3d;
+}
+
+hr {
+  width: 21.5%;
+  border: 1px solid #d8e9a8;
+  margin-left: 530px;
+}
+
+/* register styles */
+
+#lastname {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#firstname {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #4e9f3d;
+}
+#register {
+  display: flex;
+  flex-direction: column;
+}
+#phone {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-right: 0px;
+}
+
+#country {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#confirmpassword {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+}
+
+#gender {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+#state {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #4e9f3d;
+  border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-right: 80px;
+}

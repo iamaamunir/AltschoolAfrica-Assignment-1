@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@600&family=Pacifico&family=Roboto&family=Roboto+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../images/chris-liverani-ViEBSoZH6M4-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+
+  padding: 20px 10px;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  flex-direction: row;
+  color: #fff;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 2px;
+  margin: 0px 5px;
+}
+
+.nav-links li a {
+  background: rgb(100, 99, 99);
+  padding: 10px 25px;
+  border: 1px solid #191a19;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.nav-links li a:hover {
+  background: #c7c9c1;
+  color: #191a19;
+  border: 1px solid #191a19;
+}
+
+.nav-links li a:active {
+  background: #596456;
+}
+
+.nav-links li a:visited {
+  background: rgba(rgb(94, 255, 0), green, blue, alpha);
+  color: #fff;
+}
+ul li {
+  font-family: "Merriweather", serif;
+}
+
+input[type="button"] {
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 60px;
+}
+
+#text {
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+table {
+  width: 30%;
+  position: relative;
+  top: 15%;
+  left: 35%;
+  height: 49%;
+  display: block;
+}
+#zero {
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+.top-right-col {
+  background: rgb(216, 216, 216);
+}
+
+.top-right-col:hover {
+  background: #fff;
+  transition: all 0.3s ease;
+}
+img {
+  width: 60px;
+}
+
+.design {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  position: absolute;
+  top: 90%;
+  left: 42.5%;
+}
+
+.design p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #023020;
+}
+
+.box {
+  border: 1px solid black;
+}
